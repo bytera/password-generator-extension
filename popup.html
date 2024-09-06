@@ -1,0 +1,28 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Password Generator</h1>
+    <button type="button" id="regenerate">Regenerate</button>
+    <label for="password-length" id="password-length-label">16 characters</label>
+    <input type="range" min="4" max="64" id="password-length" value="16">
+
+    <div id="checkbox">
+	    <input type="checkbox" id="capital" checked>
+	    <label for="capital">Capital letters</label>
+	    <span>ABC</span>
+
+	    <input type="checkbox" id="numbers" checked>
+	    <label for="numbers">Numbers</label>
+	    <span>123</span>
+
+	    <input type="checkbox" id="symbols" checked>
+	    <label for="symbols">Symbols</label>
+	    <span>!&*</span>
+    </div>
+
+    <h2>Passwords</h2>
+    <button id="password-1">
+    </button>
+    <script src="popup.js"></script>
+  </body>
+</html>
